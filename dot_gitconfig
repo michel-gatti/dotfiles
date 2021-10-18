@@ -1,0 +1,16 @@
+[user]
+	name = Michel Gatti
+
+[includeIf "gitdir:/home/gatti/Workspace/Toptal/"]
+  path = /home/gatti/Workspace/Toptal/.gitconfig
+[includeIf "gitdir:/home/gatti/Workspace/solidbriq/"]
+  path = /home/gatti/Workspace/solidbriq/.gitconfig
+[pull]
+	rebase = true
+[rebase]
+	autosquash = true
+[core]
+	editor = subl -n -w
+	excludesfile = /home/gatti/.gitignore_global
+[push]
+	default = simple

@@ -1,0 +1,14 @@
+set which-key
+set number relativenumber
+set surround
+set clipboard+=unnamed
+set ideajoin
+set multiple-cursors
+set incsearch
+set ignorecase
+set smartcase
+
+let mapleader = " "
+nmap <space> <Leader>
+nnoremap <Leader>u :action ShowUsages<CR>
+
